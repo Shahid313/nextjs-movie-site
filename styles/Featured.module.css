@@ -1,0 +1,40 @@
+.container{
+    height: calc(100vh - 100px);
+    overflow-x: hidden;
+}
+
+.arrowcontainer1{
+    width:10%;
+    height: 20%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.arrowcontainer2{
+    width:10%;
+    height: 20%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    cursor: pointer;
+}
+
+.wrapper{
+    width: 300vw;
+    height: 100%;
+    display: flex;
+    transition: all 1.5s ease-in-out;
+}
+
+.imagecontainer{
+    width: 100vw;
+    height: 100%;
+    position: relative;
+}

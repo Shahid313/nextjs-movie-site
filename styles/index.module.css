@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+
+.productTitleBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productTitle{
+    color: black;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
